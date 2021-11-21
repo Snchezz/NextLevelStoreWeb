@@ -1,0 +1,13 @@
+body{
+    height: 3000px;
+}
+
+#imglogo {
+    width: 40px;
+    margin-top: 10px;
+    height: auto;
+}
+
+#imglogo:hover {
+    transform: scale(1.2);
+}

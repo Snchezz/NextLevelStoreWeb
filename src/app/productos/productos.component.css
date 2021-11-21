@@ -1,0 +1,53 @@
+#padre {
+    display: flex   ;
+    padding: 3%;
+}
+
+#border {
+    border: 3px solid white;
+    padding: 1px;
+    padding-top: -5px;
+    border-radius: 15px;
+    margin: 3px;
+}
+
+#fondogen {
+    background-color: #ffffff;
+}
+
+#fondorev {
+    background-color: #ffffff;
+}
+
+#whtext {
+    color: black;
+    background-color: #ffffff;
+}
+
+div.card-content {
+    background-color: #ffffff;
+}
+
+i.material.icons.right {
+    background-color: white;
+}
+
+/* Colores de los botones */
+
+#white {
+    background-color: white;
+    color: white;
+    width: 20px;
+    height: 20px;
+}
+
+#black {
+    background-color: black;
+    color: black;
+    width: 20px;
+    height: 20px;
+}
+
+#segundo {
+    margin-top: -10px;
+}
