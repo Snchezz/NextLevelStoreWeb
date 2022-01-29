@@ -6,8 +6,13 @@ body{
     width: 40px;
     margin-top: 10px;
     height: auto;
+    transition: ease-in-out .3s;
 }
 
 #imglogo:hover {
-    transform: scale(1.2);
+    transform: scale(1.3);
+}
+
+html {
+    scroll-behavior: smooth;
 }

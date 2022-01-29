@@ -1,8 +1,3 @@
-#padre {
-    display: flex   ;
-    padding: 3%;
-}
-
 #border {
     border: 3px solid white;
     padding: 1px;
@@ -39,6 +34,7 @@ i.material.icons.right {
     color: white;
     width: 20px;
     height: 20px;
+    transition: ease-in-out .3s;
 }
 
 #black {
@@ -46,8 +42,53 @@ i.material.icons.right {
     color: black;
     width: 20px;
     height: 20px;
+    transition: ease-in-out .3s;
+}
+
+#black:hover {
+    transform: scale(1.2);
+}
+
+#white:hover {
+    transform: scale(1.2);
 }
 
 #segundo {
     margin-top: -10px;
 }
+
+
+#merch {
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+#enlacestel {
+    background-color: white;
+    color: black;
+    font-style: oblique;
+    transition: ease-in-out .5s;
+}
+
+#enlacestel:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#flecha {
+    width: 3%;
+    height: auto;
+    transition: ease-in-out .3s;
+
+}
+
+#flecha:hover {
+    transform: scale(1.5);
+}
+
+html {
+    scroll-behavior: smooth;
+  }

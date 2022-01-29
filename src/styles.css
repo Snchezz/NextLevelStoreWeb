@@ -2,3 +2,7 @@
 * {
     background-color: #000;
 }
+
+.waves-ripple {
+    opacity: 0 !important;
+}

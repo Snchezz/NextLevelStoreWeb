@@ -21,3 +21,7 @@ body {
   #bg {
     background-color: #242323;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
